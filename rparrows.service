@@ -1,0 +1,8 @@
+[Unit]
+Description=USB keyboard with only arrow keys.
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/rparrows/rparrows.py
